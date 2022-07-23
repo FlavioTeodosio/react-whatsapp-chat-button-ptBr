@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import styles from './send-button.module.css';
 
 const defaultProps = {
-    sendButtonText: 'Send',
-    inputPlaceHolder: 'Type a message',
+    sendButtonText: 'Enviar',
+    inputPlaceHolder: 'Escreva aqui...',
 };
 
 const SendButton = ({
@@ -15,7 +15,7 @@ const SendButton = ({
 
     const handleClick = () => {
         if (!phoneNumber) {
-            window.alert('Invalid Phone Number');
+            window.alert('Número de telefone inválido');
             return false;
         }
         window.open(`https://wa.me/${phoneNumber}?text=${message}`);

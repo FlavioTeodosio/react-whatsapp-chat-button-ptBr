@@ -5,8 +5,8 @@ import { ChatContext } from '../../contexts/chat.context';
 import styles from './header.module.css';
 
 const defaultProps = {
-    companyName: 'Support',
-    replyTimeText: 'Typically replies within a day',
+    companyName: 'Supporte',
+    replyTimeText: 'Normalmente respondemos em 24h',
 };
 
 const Header = ({

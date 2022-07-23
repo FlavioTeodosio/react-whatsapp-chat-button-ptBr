@@ -2,8 +2,8 @@ import React from 'react';
 import styles from './chat-box.module.css';
 
 const defaultProps = {
-    companyName: 'Support',
-    message: `Hello! 👋🏼 \n\nWhat can we do for you?`,
+    companyName: 'Supporte',
+    message: `Olá! 👋🏼 \n\nComo posso ajudar?`,
 };
 
 const ChatBox = ({

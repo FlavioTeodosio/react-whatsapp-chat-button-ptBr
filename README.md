@@ -1,6 +1,6 @@
 # react-whatsapp-widget
 
-> WhatsApp chat widget for your website
+> WhatsApp chat button ptBr for your website
 
 [![NPM](https://img.shields.io/npm/v/react-whatsapp-widget.svg)](https://www.npmjs.com/package/react-whatsapp-widget) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
@@ -19,7 +19,7 @@ All texts are fully customizable and also you can provide an icon/logo.
 ## Install
 
 ```bash
-npm install --save react-whatsapp-widget
+npm install --save react-whatsapp-chat-button-ptBr
 ```
 
 ## Usage
@@ -29,12 +29,12 @@ import React from 'react';
 // This is the way to import an SVG file and then pass it as a props
 import { ReactComponent as CompanyIcon } from './assets/crown.svg';
 
-import { WhatsAppWidget } from 'react-whatsapp-widget';
-import 'react-whatsapp-widget/dist/index.css';
+import { WhatsAppChatButton } from 'react-whatsapp-chat-button-ptBr';
+import 'react-whatsapp-chat-button-ptBr/dist/index.css';
 
 const App = () => {
     return (
-        <WhatsAppWidget CompanyIcon={CompanyIcon} phoneNumber="XXXXXXXXXX" />
+        <WhatsAppChatButton CompanyIcon={CompanyIcon} phoneNumber="XXXXXXXXXX" />
     );
 };
 ```
@@ -49,10 +49,10 @@ Example: `541112222222` where 54 is the Argentina internacional code.
 | ------------- | ----------- | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
 | phoneNumber   | `string`    | `''`                                      | WhatsApp [intenational number](https://faq.whatsapp.com/en/general/21016748) which will receive the message. |
 | CompanyIcon   | `Component` | `BiSupport`                               | Your company SVG icon                                                                                        |
-| companyName   | `string`    | `'Support'`                               | Your company name                                                                                            |
-| replyTimeText | `string`    | `'Typically replies within a day'`        |
-| message       | `string`    | `'Hello! 👋🏼 \n\nWhat can we do for you?'` | With `\n` you can create a break-line.                                                                       |
-| sendButton    | `string`    | `'Send'`                                  | Text inside the send button                                                                                  |
+| companyName   | `string`    | `'Supporte'`                               | Your company name                                                                                            |
+| replyTimeText | `string`    | `'Geralmente respondemos em até 24h'`        |
+| message       | `string`    | `'Olá! 👋🏼 \n\nComo posso ajudar?'` | With `\n` you can create a break-line.                                                                       |
+| sendButtonText    | `string`    | `'Enviar'`                                  | Text inside the send button                                                                                  |
 | open          | `boolean`   | `false`                                   | If **true** the chatbox will be open as default                                                              |
 
 ## Contributing
@@ -60,13 +60,13 @@ Example: `541112222222` where 54 is the Argentina internacional code.
 After cloning the repository, you have to run the following commands in two different terminal tabs to start the development environment.
 
 ```
-cd react-whatsapp-widget
+cd react-whatsapp-chat-button-ptBr
 npm install
 npm start
 ```
 
 ```
-cd react-whatsapp-widget/example
+cd react-whatsapp-chat-button-ptBr/example
 npm install
 npm start
 ```
