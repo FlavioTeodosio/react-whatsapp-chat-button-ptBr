@@ -1,10 +1,13 @@
 {
-  "name": "react-whatsapp-widget",
-  "version": "2.0.0",
-  "description": "WhatsApp chat widget for your website",
-  "author": "ann0nip",
+  "name": "react-whatsapp-chat-button-ptbr",
+  "version": "1.0.0",
+  "description": "WhatsApp chat button ptBr for your website",
+  "author": "Flavio Teodosio",
   "license": "MIT",
-  "repository": "ann0nip/react-whatsapp-widget",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlavioTeodosio/react-whatsapp-chat-button-ptBr.git"
+  },
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
@@ -56,6 +59,16 @@
   "keywords": [
     "whatsapp",
     "widget",
+    "button",
+    "chat",
+    "Avatar",
     "react-module"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/FlavioTeodosio/react-whatsapp-chat-button-ptBr/issues"
+  },
+  "homepage": "https://github.com/FlavioTeodosio/react-whatsapp-chat-button-ptBr#readme",
+  "directories": {
+    "example": "example"
+  }
 }
