@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FlavioTeodosio/react-whatsapp-chat-button-ptBr.git"
+    "url": "git+https://github.com/FlavioTeodosio/react-whatsapp-chat-button-ptbr.git"
   },
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
@@ -65,9 +65,9 @@
     "react-module"
   ],
   "bugs": {
-    "url": "https://github.com/FlavioTeodosio/react-whatsapp-chat-button-ptBr/issues"
+    "url": "https://github.com/FlavioTeodosio/react-whatsapp-chat-button-ptbr/issues"
   },
-  "homepage": "https://github.com/FlavioTeodosio/react-whatsapp-chat-button-ptBr#readme",
+  "homepage": "https://github.com/FlavioTeodosio/react-whatsapp-chat-button-ptbr#readme",
   "directories": {
     "example": "example"
   }

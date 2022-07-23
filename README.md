@@ -2,7 +2,7 @@
 
 > WhatsApp chat button ptBr for your website
 
-[![NPM](https://img.shields.io/npm/v/react-whatsapp-widget.svg)](https://www.npmjs.com/package/react-whatsapp-widget) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/react-whatsapp-widget.svg)](https://www.npmjs.com/package/react-whatsapp-chat-button-ptbr) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ![Custom settings](https://i.ibb.co/kDSbsXb/Screen-Shot-2020-10-29-at-02-01-31.png)
 
@@ -19,7 +19,7 @@ All texts are fully customizable and also you can provide an icon/logo.
 ## Install
 
 ```bash
-npm install --save react-whatsapp-chat-button-ptBr
+npm install --save react-whatsapp-chat-button-ptbr
 ```
 
 ## Usage
@@ -29,8 +29,8 @@ import React from 'react';
 // This is the way to import an SVG file and then pass it as a props
 import { ReactComponent as CompanyIcon } from './assets/crown.svg';
 
-import { WhatsAppChatButton } from 'react-whatsapp-chat-button-ptBr';
-import 'react-whatsapp-chat-button-ptBr/dist/index.css';
+import { WhatsAppChatButton } from 'react-whatsapp-chat-button-ptbr';
+import 'react-whatsapp-chat-button-ptbr/dist/index.css';
 
 const App = () => {
     return (
@@ -60,7 +60,7 @@ Example: `541112222222` where 54 is the Argentina internacional code.
 After cloning the repository, you have to run the following commands in two different terminal tabs to start the development environment.
 
 ```
-cd react-whatsapp-chat-button-ptBr
+cd react-whatsapp-chat-button-ptbr
 npm install
 npm start
 ```

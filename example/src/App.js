@@ -1,12 +1,12 @@
 import React from 'react';
 import { ReactComponent as CompanyIcon } from './assets/crown.svg';
 
-import { WhatsAppWidget } from 'react-whatsapp-chat-button-ptBr';
-import 'react-whatsapp-chat-button-ptBr/dist/index.css';
+import { WhatsAppChatButton } from 'react-whatsapp-chat-button-ptbr';
+import 'react-whatsapp-chat-button-ptbr/dist/index.css';
 
 const App = () => {
     return (
-        <WhatsAppWidget
+        <WhatsAppChatButton
             message={`Olá! 👋🏼 \n\nComo posso ajudar?`}
             phoneNumber=""
         />
