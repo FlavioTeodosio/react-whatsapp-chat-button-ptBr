@@ -1,4 +1,4 @@
-# react-whatsapp-widget
+# react-whatsapp-chat-button-ptbr
 
 > WhatsApp chat button ptBr for your website
 
@@ -25,17 +25,17 @@ npm install --save react-whatsapp-chat-button-ptbr
 ## Usage
 
 ```jsx
-import React from 'react';
+import React from "react";
 // This is the way to import an SVG file and then pass it as a props
-import { ReactComponent as CompanyIcon } from './assets/crown.svg';
+import { ReactComponent as CompanyIcon } from "./assets/crown.svg";
 
-import { WhatsAppChatButton } from 'react-whatsapp-chat-button-ptbr';
-import 'react-whatsapp-chat-button-ptbr/dist/index.css';
+import { WhatsAppChatButton } from "react-whatsapp-chat-button-ptbr";
+import "react-whatsapp-chat-button-ptbr/dist/index.css";
 
 const App = () => {
-    return (
-        <WhatsAppChatButton CompanyIcon={CompanyIcon} phoneNumber="XXXXXXXXXX" />
-    );
+  return (
+    <WhatsAppChatButton CompanyIcon={CompanyIcon} phoneNumber="XXXXXXXXXX" />
+  );
 };
 ```
 
@@ -45,15 +45,15 @@ Example: `541112222222` where 54 is the Argentina internacional code.
 
 ## Customization
 
-| option        | value       | default                                   | description                                                                                                  |
-| ------------- | ----------- | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-| phoneNumber   | `string`    | `''`                                      | WhatsApp [intenational number](https://faq.whatsapp.com/en/general/21016748) which will receive the message. |
-| CompanyIcon   | `Component` | `BiSupport`                               | Your company SVG icon                                                                                        |
-| companyName   | `string`    | `'Supporte'`                               | Your company name                                                                                            |
-| replyTimeText | `string`    | `'Geralmente respondemos em até 24h'`        |
-| message       | `string`    | `'Olá! 👋🏼 \n\nComo posso ajudar?'` | With `\n` you can create a break-line.                                                                       |
-| sendButtonText    | `string`    | `'Enviar'`                                  | Text inside the send button                                                                                  |
-| open          | `boolean`   | `false`                                   | If **true** the chatbox will be open as default                                                              |
+| option         | value       | default                               | description                                                                                                  |
+| -------------- | ----------- | ------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| phoneNumber    | `string`    | `''`                                  | WhatsApp [intenational number](https://faq.whatsapp.com/en/general/21016748) which will receive the message. |
+| CompanyIcon    | `Component` | `BiSupport`                           | Your company SVG icon                                                                                        |
+| companyName    | `string`    | `'Supporte'`                          | Your company name                                                                                            |
+| replyTimeText  | `string`    | `'Geralmente respondemos em até 24h'` |
+| message        | `string`    | `'Olá! 👋🏼 \n\nComo posso ajudar?'`    | With `\n` you can create a break-line.                                                                       |
+| sendButtonText | `string`    | `'Enviar'`                            | Text inside the send button                                                                                  |
+| open           | `boolean`   | `false`                               | If **true** the chatbox will be open as default                                                              |
 
 ## Contributing
 
